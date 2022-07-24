@@ -1,0 +1,102 @@
+/* CSS - cascading styling sheets */
+
+/* Connect the external css file to html file */
+
+/* Plan */
+/* Spacing to make it easier to read */
+/* Used hr and br html tags */
+
+
+/* Css Rule */
+/* object {
+  key:value ----> declaration
+} */
+
+/* Make header tags have green text and a gradient background */
+/* give the h1 an animation to bounce in and out */
+h1 {
+    animation: bounce 3s infinite;
+    animation-timing-function: ease-in-out;
+  }
+    /* define the animation */
+    @keyframes bounce {
+      0% {
+        transform: scaleX(0.5);
+      }
+      60%{
+        transform: scaleX(1);
+      }
+      100%{
+        transform: scaleX(0.8);
+      }
+    }
+  /* Used html tags */
+   h1, h3 {
+    color: #134521;
+  }
+  .gradient{
+      background-image: linear-gradient(to right, gray, white)
+  }
+  /* h3 {
+    color: rgb(19, 69, 33)
+  } */
+  
+  /* custom object - id, css created for one object*/
+  #remove {
+    text-decoration: line-through;
+  }
+  
+  /* Give a unique border to paragraphs */
+  /* custom object - class, css created for several objects */
+  .book {
+    border-width: 3px;
+    border-style: inset;
+    border-color: #134521;
+  }
+  
+  .book2 {
+    border-width: 3px;
+    border-style: outset;
+    border-color: #134521;
+    background-color: grey;
+    opacity: 80%;
+  }
+  
+  /* Make a background image */
+  body {
+    background-image: url("https://www.simplyrecipes.com/thmb/iaZbJwKRwLEWjW6u7RvPGGapK34=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Homemade-Apple-Pie-LEAD-10-3eebb85f6491464dabf4d51fe3e491d9.jpg");
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* Add hover effect to buttons */
+  /* Use pseudo-class, add keyword to a object to specify the state of the html element */
+  /* object:pseudo-class {
+    key:value
+  } */
+  button:hover, #grid:hover {
+    font-size: 200%;
+    background-color: rgb(46, 45, 45);
+    color:#2c994b
+  }
+  
+  /* universal selector * */
+  * {
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+  }
+  ol li{
+    list-style-position: inside;
+  }
+  
+  #apple-board{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* add some background opactity to the tables and lists */
+  /* Remove the list items left justfied dots and numbers */
+  /*  */
