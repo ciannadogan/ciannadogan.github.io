@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LEARN's Apple Pie</title>
+    <link rel="icon" type="image/x-icon" href="https://publicdomainvectors.org/photos/apple-pie-publicdomain-vector.jpg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="top">Apple Pie</h1>
+    <h3>LEARN's Apple Pie Recipe</h3>
+    <a href="#recipe">
+      <button>Take me to the recipe</button>
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Small_apple_pie_8.jpg" alt="apple pie" height="300px">
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <h3>Ingredients</h3>
+    <ul>
+      <!-- assign custom id attribute and onclick attribute to the opening tag -->
+      <li id="granny" onclick="pieFinder('granny')">Large Granny Smith apples</li>
+      <li id="honey" onclick="pieFinder('honey')">Large Honeycrisp apples</li>
+      <li id="gold" onclick="pieFinder('gold')">Large Golden Delicious apples</li>
+      <li>Pie crusts</li>
+      <li>Sugar</li>
+      <li>Cinnamon</li>
+    </ul>
+    <h3 id="recipe">Instructions</h3>
+    <ol>
+      <li>Preheat oven to 400F</li>
+      <li>Mix ingredients together</li>
+      <li>Pour into pie crust</li>
+      <li>Bake for 30 minutes until golden</li>
+    </ol>
+    <table border=1>
+      <tr>
+        <td id="gran" onclick="pieFinder('gran')">Granny Smith</td>
+        <td id="crisp" onclick="pieFinder('crisp')">Honeycrisp</td>
+        <td id="deli" onclick="pieFinder('deli')">Golden Delicious</td>
+      </tr>
+      <tr>
+        <td>Super tart</td>
+        <td>Super crisp, sweet</td>
+        <td>Softer, sweet</td>
+      </tr>
+      <tr>
+        <td>Holds up the best</td>
+        <td>Holds up great</td>
+        <td>Holds up well</td>
+      </tr>
+    </table>
+    <footer>&copy LEARN Instructors and TA's | Jumpstart |
+      <a href="#top">Back to the top</a> |
+      <a href="https://littlespoonfarm.com/apple-pie-recipe/" target="_blank">A Similar Apple Pie Recipe</a>
+    </footer>
+    <!-- connecting the javascript file -->
+    <script src="apple.js"></script>
+  </body>
+</html>

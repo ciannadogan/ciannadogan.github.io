@@ -1,0 +1,61 @@
+* {
+    font-family: 'Poppins';
+    color: #DBF20A;
+  }
+  
+  body {
+    background-image: url("https://images.unsplash.com/photo-1587248720327-8eb72564be1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+  }
+  
+  h1, h3 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: red;
+    font-size: 40px;
+  }
+  
+  li {
+    font-weight: bold;
+  }
+  
+  /* a class is a custom css rule that can be used on many elements */
+  .bigger {
+    font-size: 60px;
+  }
+  
+  /* an id is a unique selector that we only use once in our code. */
+  #orange {
+    color: #D46D19;
+  }
+  
+  .internal-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 20px;
+    color: black;
+    padding: 10px;
+    background-color: #FF69B4;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #FF3B9D;
+    cursor: pointer;
+  }
+  
+  .recipe-table {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
